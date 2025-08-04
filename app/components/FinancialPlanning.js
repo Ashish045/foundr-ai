@@ -254,7 +254,7 @@ export default function FinancialPlanning() {
             </div>
           ) : (
             <div className="text-center text-gray-500 py-8">
-              <p>Enter your financial data and click "Calculate Analysis" to see insights</p>
+              <p>Enter your financial data and click &quot;Calculate Analysis&quot; to see insights</p>
             </div>
           )}
         </div>

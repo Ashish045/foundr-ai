@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 export default function Hero() {
   return (
     <div className="bg-white">
@@ -22,30 +24,31 @@ export default function Hero() {
             <h2 className="text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
               Your MSME Copilot. Boost your business productivity.
             </h2>
-            <p className="mt-6 text-lg/8 text-pretty text-gray-300">
-              Get instant AI-powered assistance for your business questions. From cost calculations to vendor recommendations, we've got you covered.
+            <p className="mt-6 text-lg leading-8 text-gray-300">
+              Foundr.ai is your AI-powered business companion. Get instant insights, cost analysis, vendor recommendations, and market intelligence to grow your MSME business.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a
-                href="#search"
+                href="#"
                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
                 Get started
               </a>
-              <a href="#features" className="text-sm/6 font-semibold text-white hover:text-gray-100">
-                Learn more
-                <span aria-hidden="true">→</span>
+              <a href="#" className="text-sm/6 font-semibold text-white hover:text-gray-100">
+                Learn more <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
           <div className="relative mt-16 h-80 lg:mt-8">
-            <img
-              alt="Foundr.ai App screenshot"
-              src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
-              width={1824}
-              height={1080}
-              className="absolute top-0 left-0 w-228 max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
-            />
+            <div className="absolute top-0 left-0 w-228 max-w-none rounded-md bg-white/5 ring-1 ring-white/10">
+              <div className="w-full h-full bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-md flex items-center justify-center">
+                <div className="text-center text-white">
+                  <div className="text-4xl mb-4">🚀</div>
+                  <div className="text-lg font-semibold">Foundr.ai</div>
+                  <div className="text-sm opacity-80">MSME Copilot</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
